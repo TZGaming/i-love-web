@@ -2,7 +2,7 @@
 require 'db/db.php';
 
 // Data ophalen, gesorteerd op datum
-$stmt = $pdo->query("SELECT * FROM logs ORDER BY datum DESC");
+$stmt = $pdo->query("SELECT * FROM logs ORDER BY datum ASC");
 $logs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Groeperen op datum
@@ -20,14 +20,14 @@ foreach ($logs as $log) {
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Logs Overzicht</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Logs Overzicht - Tom Zuidervaart</title>
+    <link rel="stylesheet" href="styles/style.css?v=<?= time(); ?>">
 </head>
 <body>
     <div class="mushroom"></div>
     <div class="flower"></div>
 
-    <h1>Logs Overzicht</h1>
+    <h1>Logs Overzicht - Tom Zuidervaart</h1>
 
     <article>
         <?php foreach ($logsPerDatum as $datum => $entries): ?>

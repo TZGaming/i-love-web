@@ -1,9 +1,30 @@
 [
     {
-        "onderwerp": "xfghjk",
+        "onderwerp": "Squad Page Feedback",
         "datum": "2025-09-12",
-        "omschrijving": "dfhdsdfdjf\\",
-        "vragen": "sdfrfgrgh",
-        "bronnen": "sdfgrthy"
+        "omschrijving": "Ik heb feedback gegeven aan Anass, Mathijs en Yassine. Het was vooral positief maar ook een beetje negatief. Ik heb vooral code verbeteringen ontvangen, het design was goed. Na het weekend ga ik wat errors fixen in de code.",
+        "vragen": "Geen",
+        "bronnen": "https:\/\/validator.w3.org\/"
+    },
+    {
+        "onderwerp": "Squad Page",
+        "datum": "2025-09-11",
+        "omschrijving": "Ik heb een ontwerp gemaakt, door gebouwen gelopen in het Amstelcampus en de basis van de squad page gemaakt.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Profile Card",
+        "datum": "2025-09-04",
+        "omschrijving": "Ik heb mijn hele visitekaartje gefixed, de site is responsive dankzij @media in de css, ook heb ik wat sounds toegevoegd met hulp van ChatGPT in JavaScript.",
+        "vragen": "Geen",
+        "bronnen": "ChatGPT"
+    },
+    {
+        "onderwerp": "Profile Card",
+        "datum": "2025-09-03",
+        "omschrijving": "Ik heb veel dingen toegevoegd aan mijn profile card. Onder andere een hobby lijst en favoriete game, het was moeilijk om de content te centreren. Ik heb ook een start gemaakt aan mijn daily journal, alleen ben ik nog niet zo ver.",
+        "vragen": "Hoe houd je je code gestructureerd?",
+        "bronnen": "MDN (https:\/\/developer.mozilla.org\/en-US\/)"
     }
 ]
