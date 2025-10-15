@@ -1,8 +1,8 @@
 <?php
-require 'db.php';
+require 'db/db.php';
 
 // Data ophalen, gesorteerd op datum
-$stmt = $pdo->query("SELECT * FROM logs ORDER BY datum DESC");
+$stmt = $pdo->query("SELECT * FROM logs ORDER BY datum ASC");
 $logs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Groeperen op datum
@@ -20,29 +20,26 @@ foreach ($logs as $log) {
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Logs Overzicht</title>
-    <style>
-        body { font-family: Arial, sans-serif; padding: 20px; }
-        article { margin-bottom: 40px; }
-        section { background: #f4f4f4; padding: 15px; margin-bottom: 10px; border-radius: 8px; }
-        h2 { color: #333; }
-    </style>
+    <title>Logs Overzicht - Tom Zuidervaart</title>
+    <link rel="stylesheet" href="styles/style.css?v=<?= time(); ?>">
 </head>
 <body>
-    <h1>Logs Overzicht</h1>
+    <div class="mushroom"></div>
+    <div class="flower"></div>
+
+    <h1>Logs Overzicht - Tom Zuidervaart</h1>
 
     <article>
         <?php foreach ($logsPerDatum as $datum => $entries): ?>
             <section>
-                <h2><?= htmlspecialchars($datum) ?></h2>
+                <h2><?= date('d-m-Y', strtotime($datum)) . ' - ' . htmlspecialchars($entries[0]['onderwerp']) ?></h2>
+                <hr>
                 <?php foreach ($entries as $entry): ?>
                     <div>
-                        <strong>Onderwerp:</strong> <?= htmlspecialchars($entry['onderwerp']) ?><br>
-                        <strong>Omschrijving:</strong> <?= nl2br(htmlspecialchars($entry['omschrijving'])) ?><br>
-                        <strong>Vragen:</strong> <?= nl2br(htmlspecialchars($entry['vragen'])) ?><br>
-                        <strong>Bronnen:</strong> <?= nl2br(htmlspecialchars($entry['bronnen'])) ?>
+                        <strong>Omschrijving:<br></strong> <?= nl2br(htmlspecialchars($entry['omschrijving'])) ?><br>
+                        <strong><br>Vragen:<br></strong> <?= nl2br(htmlspecialchars($entry['vragen'])) ?><br>
+                        <strong><br>Bronnen:<br></strong> <?= nl2br(htmlspecialchars($entry['bronnen'])) ?>
                     </div>
-                    <hr>
                 <?php endforeach; ?>
             </section>
         <?php endforeach; ?>

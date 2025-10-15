@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    overflow-x: hidden;
+    color: white;
+    position: relative;
+}
+
+@font-face {
+    font-family: MarioFont;
+    src: url(../assets/fnt/mariofont.otf);
+}
+
+@font-face {
+    font-family: MarioUFont;
+    src: url(../assets/fnt/NSMBU.ttf);
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+section {
+    background: rgba(126, 126, 126, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    width: 400px;
+    flex: 0 0 auto;
+    padding-bottom: 20px;
+}
+
+h1 {
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+strong {
+    font-family: MarioUFont;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.mushroom, .flower {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-position: 0 0;
+    z-index: -1;
+}
+
+.mushroom {
+    background-image: url('../assets/img/Mushroom.png');
+    background-size: 200px 200px;
+    animation-duration: 800s;
+    animation: mushroomMove 100s linear infinite;
+    opacity: 0.1;
+}
+
+.flower {
+    background-image: url('../assets/img/FireFlower.png');
+    background-size: 150px 150px;
+    opacity: 0.05;
+    animation: moveFlower 600s linear infinite;
+}
+
+@keyframes moveFlower {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 10000px 5000px;
+    }
+}
+
+@keyframes mushroomMove {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0px 2500px;
+    }
+}
