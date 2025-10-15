@@ -1,65 +1,12 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Logs Overzicht - Tom Zuidervaart</title>
-  <link rel="stylesheet" href="styles/style.css" />
-  <style>
-    section { margin-bottom: 2em; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <div class="mushroom"></div>
-  <div class="flower"></div>
-
-  <h1>Logs Overzicht - Tom Zuidervaart</h1>
-  <article id="log-container">Bezig met laden...</article>
-
-  <script>
-    fetch('logs.json')
-      .then(response => response.json())
-      .then(data => {
-        const grouped = {};
-        data.forEach(entry => {
-          if (!grouped[entry.datum]) {
-            grouped[entry.datum] = [];
-          }
-          grouped[entry.datum].push(entry);
-        });
-
-        const container = document.getElementById('log-container');
-        container.innerHTML = '';
-
-        Object.keys(grouped).sort((a, b) => a.localeCompare(b)).forEach(datum => {
-          const entries = grouped[datum];
-          const onderwerp = entries[0].onderwerp;
-
-          const section = document.createElement('section');
-          const h2 = document.createElement('h2');
-          const formattedDate = datum.split('-').reverse().join('-');
-          h2.textContent = `${formattedDate} - ${onderwerp}`;
-          section.appendChild(h2);
-          section.appendChild(document.createElement('hr'));
-
-          entries.forEach(entry => {
-            const div = document.createElement('div');
-
-            div.innerHTML = `
-              <strong>Omschrijving:<br></strong> ${entry.omschrijving.replace(/\n/g, "<br>")}<br>
-              <strong><br>Vragen:<br></strong> ${entry.vragen.replace(/\n/g, "<br>")}<br>
-              <strong><br>Bronnen:<br></strong> ${entry.bronnen.replace(/\n/g, "<br>")}
-            `;
-
-            section.appendChild(div);
-          });
-
-          container.appendChild(section);
-        });
-      })
-      .catch(error => {
-        document.getElementById('log-container').textContent = 'Fout bij laden van logs.';
-        console.error(error);
-      });
-  </script>
+    <h2 id="links">Links</h2>
+    <a href="ux.html">UX van HTML</a>
 </body>
 </html>
