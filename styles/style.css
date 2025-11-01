@@ -66,8 +66,8 @@ strong {
 .mushroom {
     background-image: url('../assets/img/Mushroom.png');
     background-size: 200px 200px;
-    animation-duration: 800s;
-    animation: mushroomMove 100s linear infinite;
+    /* Animation is handled by JS at a fixed 60 FPS to avoid high CPU/GPU on high-refresh displays */
+    animation: none !important;
     opacity: 0.1;
 }
 
@@ -75,23 +75,8 @@ strong {
     background-image: url('../assets/img/FireFlower.png');
     background-size: 150px 150px;
     opacity: 0.05;
-    animation: moveFlower 600s linear infinite;
+    /* Animation is handled by JS at a fixed 60 FPS to avoid high CPU/GPU on high-refresh displays */
+    animation: none !important;
 }
 
-@keyframes moveFlower {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 10000px 5000px;
-    }
-}
-
-@keyframes mushroomMove {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 0px 2500px;
-    }
-}
+/* Keyframes removed -- animation performed in JS at a locked 60 FPS to reduce resource usage on high-refresh-rate displays */
