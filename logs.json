@@ -1,5 +1,89 @@
 [
     {
+        "onderwerp": "Sprint 3 Wrap-up",
+        "datum": "2025-10-29",
+        "omschrijving": "Voor de aankomende sprint review van morgen ga ik meer vragen bedenken, wil ik  graag feedback krijgen over kleurkeuzes, en feedback over mijn layout krijgen.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Workshop kleur en contrast",
+        "datum": "2025-10-27",
+        "omschrijving": "Ik heb geleerd dat het goed is om een contrast test uit te voeren op jouw websites. Contrast is belangrijk voor mensen met bepaalde aandoeningen, zoals bijvoorbeeld slecht zienden, mensen die geen kleur kunnen zien, etc. Dan is de content alsnog leesbaar. Het is belangrijk om niet kleuren zoals geel en groene tekst te gebruiken, want dat zijn allebij velle kleuren. Gebruik dan bijvoorbeeld geel en donkerblauw.",
+        "vragen": "Geen",
+        "bronnen": "https:\/\/www.tpgi.com\/color-contrast-checker\/"
+    },
+    {
+        "onderwerp": "Workshop WCAG Audit",
+        "datum": "2025-10-13",
+        "omschrijving": "Ik heb de WCAG Audit nog niet kunnen maken, want de planning die daarvoor was, was erg druk. Ik ga dus thuis de WCAG Audit maken en het in de wiki zetten. Ook moet ik de heading teksten aanpassen zodat ze de goede volgorde hebben, en ik moet alt tags bij de afbeeldingen neerzetten voor screenreaders.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Sprint 2 Wrap-up",
+        "datum": "2025-10-08",
+        "omschrijving": "Ik heb als feedback gekregen dat ik de website meer responsive moet maken, ik had daar de vorige keer ook feedback over gehad, maar ik was er nog niet aan begonnen.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Workshop Code conventies",
+        "datum": "2025-10-06",
+        "omschrijving": "Ik heb wat selectors in de CSS genest en ik heb de structuur van de HTML verbeterd. Ook heb ik geleerd wat refactoren betekent, het houdt in dat je de code verbeterd zonder dat je functionaliteit aanpast.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Code\/design review",
+        "datum": "2025-10-03",
+        "omschrijving": "Ik heb goede feedback gekregen van klasgenoten. Ik moet alleen wel de website meer responsive maken want hij is een beetje gebroken op telefoons op dit moment.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Breakpoints & Media queries",
+        "datum": "2025-10-01",
+        "omschrijving": "Hier zijn een aantal selectors die je kan gebruiken om tekst leesbaar te maken op mobiel: line-height, clamp(), max-width. Ook is het handig om media queries te nesten.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Flow Layout",
+        "datum": "2025-09-29",
+        "omschrijving": "Ik heb een aantal dingen geleerd in deze workshop, hier zijn een aantal dingen: Flexbox is voor 1 kolom en grid is voor meerdere, en de default layout op een website is flow. Ik heb ervoor gekozen om grid te gebruiken voor de boekenlijst op de home page.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Prototyping",
+        "datum": "2025-09-24",
+        "omschrijving": "Ik heb geleerd dat je recht moet tekenen, items dikker moet tekenen, en dat je eerst de tekst moet schrijven, en dan de uitlijn van het object daar om heen zodat de tekst niet uit het object gaat.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Sprint 2 planning en kennismaking",
+        "datum": "2025-09-22",
+        "omschrijving": "Ik heb geleerd hoe een briefing gaat met een opdrachtgever, en wat hun eisen zijn. Ook heb ik gezien hoe hun website in elkaar zit. Onze debriefings hebben ik, Mathijs en Kurollos samen in 1 debriefing samengevat en opgestuurd.",
+        "vragen": "Hoe kan je goed werk opleveren aan de opdrachtgever?",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Sprint 1 Wrap-up",
+        "datum": "2025-09-17",
+        "omschrijving": "Ik ben verder gegaan aan de website, en ik heb geleerd hoe ik een animatie kan toevoegen als de site opent.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
+        "onderwerp": "Squad Page Figma",
+        "datum": "2025-09-15",
+        "omschrijving": "Ik heb vandaag 9 ontwerpen gemaakt in Figma voor de Squad Page. Dit was niet heel makkelijk want ik wil mijn design vrij strak houden.",
+        "vragen": "Geen",
+        "bronnen": "Geen"
+    },
+    {
         "onderwerp": "Squad Page Feedback",
         "datum": "2025-09-12",
         "omschrijving": "Ik heb feedback gegeven aan Anass, Mathijs en Yassine. Het was vooral positief maar ook een beetje negatief. Ik heb vooral code verbeteringen ontvangen, het design was goed. Na het weekend ga ik wat errors fixen in de code.",
