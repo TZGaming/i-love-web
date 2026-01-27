@@ -140,7 +140,7 @@ strong {
     }
 
     &.scrollable {
-        height: 83vh;
+        height: 80vh;
     }
 
     @media screen and (max-width: 900px) {
