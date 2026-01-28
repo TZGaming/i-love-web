@@ -1,0 +1,162 @@
+body, html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.questions p {
+    animation-name: pageloadEmojis;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(.15,2.01,.93,1.1);
+    animation-delay: calc(1.2s + var(--p-delay, 0s));
+}
+
+.questions li:nth-child(1) p:nth-child(1) { --p-delay: 0.05s; }
+.questions li:nth-child(1) p:nth-child(2) { --p-delay: 0.10s; }
+
+.questions li:nth-child(3) p:nth-child(1) { --p-delay: 0.15s; }
+.questions li:nth-child(3) p:nth-child(2) { --p-delay: 0.20s; }
+
+.questions li:nth-child(5) p:nth-child(1) { --p-delay: 0.25s; }
+.questions li:nth-child(5) p:nth-child(2) { --p-delay: 0.30s; }
+
+.questions li:nth-child(7) p:nth-child(1) { --p-delay: 0.35s; }
+.questions li:nth-child(7) p:nth-child(2) { --p-delay: 0.40s; }
+
+.questions li:nth-child(9) p:nth-child(1) { --p-delay: 0.45s; }
+.questions li:nth-child(9) p:nth-child(2) { --p-delay: 0.50s; }
+
+.questions li:nth-child(11) p:nth-child(1) { --p-delay: 0.55s; }
+.questions li:nth-child(11) p:nth-child(2) { --p-delay: 0.60s; }
+
+.questions li:nth-child(13) p:nth-child(1) { --p-delay: 0.65s; }
+.questions li:nth-child(13) p:nth-child(2) { --p-delay: 0.70s; }
+
+.questions li:nth-child(15) p:nth-child(1) { --p-delay: 0.75s; }
+.questions li:nth-child(15) p:nth-child(2) { --p-delay: 0.80s; }
+
+.questions li:nth-child(17) p:nth-child(1) { --p-delay: 0.85s; }
+.questions li:nth-child(17) p:nth-child(2) { --p-delay: 0.90s; }
+
+.questions li:nth-child(19) p:nth-child(1) { --p-delay: 0.95s; }
+.questions li:nth-child(19) p:nth-child(2) { --p-delay: 1.00s; }
+
+.questions li:nth-child(21) p:nth-child(1) { --p-delay: 1.05s; }
+.questions li:nth-child(21) p:nth-child(2) { --p-delay: 1.10s; }
+
+.questions li:nth-child(23) p:nth-child(1) { --p-delay: 1.15s; }
+.questions li:nth-child(23) p:nth-child(2) { --p-delay: 1.20s; }
+
+.questions li:nth-child(25) p:nth-child(1) { --p-delay: 1.25s; }
+.questions li:nth-child(25) p:nth-child(2) { --p-delay: 1.30s; }
+
+.questions li:nth-child(27) p:nth-child(1) { --p-delay: 1.35s; }
+.questions li:nth-child(27) p:nth-child(2) { --p-delay: 1.40s; }
+
+.questions li:nth-child(29) p:nth-child(1) { --p-delay: 1.45s; }
+.questions li:nth-child(29) p:nth-child(2) { --p-delay: 1.50s; }
+
+.questions li:nth-child(31) p:nth-child(1) { --p-delay: 1.55s; }
+.questions li:nth-child(31) p:nth-child(2) { --p-delay: 1.60s; }
+
+.questions li:nth-child(33) p:nth-child(1) { --p-delay: 1.65s; }
+.questions li:nth-child(33) p:nth-child(2) { --p-delay: 1.70s; }
+
+.questions li:nth-child(35) p:nth-child(1) { --p-delay: 1.75s; }
+.questions li:nth-child(35) p:nth-child(2) { --p-delay: 1.80s; }
+
+.questions li:nth-child(37) p:nth-child(1) { --p-delay: 1.85s; }
+.questions li:nth-child(37) p:nth-child(2) { --p-delay: 1.90s; }
+
+@keyframes pageloadEmojis {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.vragenlijst-container {
+    animation-name: pageloadContent;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;    
+}
+
+@keyframes pageloadContent {
+  0% {
+    gap: 500px;
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  100% {
+    gap: 20px;
+    opacity: 1;
+  }
+}
+
+.questions {
+    animation-name: pageloadList;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    animation-delay: 0.6s;
+}
+
+@keyframes pageloadList {
+  0% {
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  100% {
+    transform-origin: top;
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.vragenlijst-score h2 {
+    animation-name: scoreNumber;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+}
+
+@keyframes scoreNumber {
+  0% {
+    scale: 3;
+    opacity: 0;
+    transform: rotateZ(720deg);
+    background-color: rgba(255, 0, 0, 0);
+  }
+  50% {
+    scale: 1;
+    opacity: 1;
+    transform: rotateZ(0deg);
+    background-color: rgba(255, 0, 0, 0);
+  }
+  75% {
+    scale: 1.2;
+    background-color: rgb(21, 255, 0);
+    text-shadow: 0px 0px 9px #000000;
+  }
+  100% {
+    scale: 1;
+    background-color: rgba(34, 255, 0, 0.3);
+    text-shadow: 0px 0px 9px #000000;
+  }
+}
