@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+nav {
+  display: block;
+  background-color: rgb(62, 93, 178);
+  width: 50px;
+  height: 100vh;
+  cursor: pointer;
+  transition: 0.2s background-color;
+}
+
+nav:hover {
+    background-color: rgb(65, 97, 186);
+}
+
+.navbar {
+  width: 50px;
+  transition: width .5s cubic-bezier(.23,1.07,.3,1.42);
+}
+
+.navbar.open {
+  width: 300px;
+}
