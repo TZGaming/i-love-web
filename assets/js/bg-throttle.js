@@ -12,14 +12,9 @@
     return;
   }
 
-  // Disable any remaining CSS animations
-  if (mushroom) mushroom.style.animation = 'none';
-  if (flower) flower.style.animation = 'none';
-
   // Speeds derived from original CSS keyframes:
-  // mushroom: 0 -> 2500px in 100s => 25 px/s
-  // flower: x 0 -> 10000px in 600s => ~16.6667 px/s
-  // flower: y 0 -> 5000px in 600s => ~8.3333 px/s
+  // mushroom: 25 px/s
+  // flower: x ≈16.6667 px/s, y ≈8.3333 px/s
   const MUSH_Y_PER_S = 2500 / 100; // 25
   const FLOWER_X_PER_S = 10000 / 600; // ≈16.6667
   const FLOWER_Y_PER_S = 5000 / 600;  // ≈8.3333
@@ -28,9 +23,10 @@
   let flowerX = 0;
   let flowerY = 0;
 
-  const MUSH_WRAP_Y = 2500;
-  const FLOWER_WRAP_X = 10000;
-  const FLOWER_WRAP_Y = 5000;
+  // SEAMLESS WRAPPING: Dit moet exact gelijk zijn aan (of een veelvoud van) je background-size!
+  const MUSH_WRAP_Y = 200;   // Matcht met background-size: 200px 200px;
+  const FLOWER_WRAP_X = 150; // Matcht met background-size: 150px 150px;
+  const FLOWER_WRAP_Y = 150; // Matcht met background-size: 150px 150px;
 
   let last = performance.now();
 
@@ -47,11 +43,13 @@
       const seconds = delta / 1000;
 
       if (mushroom) {
+        // Gebruik de modulo (%) operator met de grootte van de afbeelding (200)
         mushY = (mushY + MUSH_Y_PER_S * seconds) % MUSH_WRAP_Y;
         mushroom.style.backgroundPosition = '0px ' + Math.round(mushY) + 'px';
       }
 
       if (flower) {
+        // Gebruik de modulo (%) operator met de grootte van de afbeelding (150)
         flowerX = (flowerX + FLOWER_X_PER_S * seconds) % FLOWER_WRAP_X;
         flowerY = (flowerY + FLOWER_Y_PER_S * seconds) % FLOWER_WRAP_Y;
         flower.style.backgroundPosition = Math.round(flowerX) + 'px ' + Math.round(flowerY) + 'px';

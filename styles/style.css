@@ -22,6 +22,114 @@ body {
     src: url(../assets/fnt/NSMBU.ttf);
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.491);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    a {
+        background-color: black;
+        padding: 10px 20px;
+        border: rgb(78, 78, 78) solid 2px;
+        border-radius: 15px;
+
+        &:hover {
+            border: rgb(255, 255, 255) solid 2px;
+            background-color: white;
+            color: black;
+        }
+    }
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+ul#demo-lijst {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    li {
+        list-style-type: none;
+        background-color: rgb(0, 0, 0);
+        width: 20vw;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        outline: rgb(78, 78, 78) 2px solid;
+        transition: .2s;
+
+        a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &:hover {
+            transform: rotateZ(5deg);
+            background-color: rgb(7, 7, 7);
+            outline: white 2px solid;
+            cursor: pointer;
+            box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    li#demo-sw2 {
+        list-style-type: none;
+        background-color: rgb(0, 0, 0);
+        width: 20vw;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+        outline: rgb(78, 78, 78) 2px solid;
+        transition: .2s;
+        gap: 10%;
+
+        img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+
+        a {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &:hover {
+            transform: rotateZ(5deg);
+            background-color: rgb(7, 7, 7);
+            outline: white 2px solid;
+            cursor: pointer;
+            box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.5);
+        }
+    }
+}
+
 article {
     display: flex;
     flex-wrap: wrap;
