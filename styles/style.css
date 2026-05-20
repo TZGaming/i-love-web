@@ -57,10 +57,6 @@ nav {
     }
 }
 
-section {
-    margin-bottom: 2em;
-}
-
 ul#demo-lijst {
     padding: 0;
     display: flex;
@@ -77,6 +73,12 @@ ul#demo-lijst {
         align-items: center;
         border-radius: 15px;
         outline: rgb(78, 78, 78) 2px solid;
+        opacity: 0;
+
+        animation-name: pageload;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(.52, .91, .8, 1);
         transition: .2s;
 
         a {
@@ -107,13 +109,21 @@ ul#demo-lijst {
         flex-direction: column;
         border-radius: 15px;
         outline: rgb(78, 78, 78) 2px solid;
-        transition: .2s;
         gap: 10%;
+        opacity: 0;
+
+        animation-name: pageload;
+        animation-delay: .2s;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(.52, .91, .8, 1);
+        transition: .2s;
 
         img {
             max-width: 90%;
             max-height: 90%;
             object-fit: contain;
+            border-radius: 10px;
         }
 
         a {
@@ -146,6 +156,23 @@ article {
     overflow-y: scroll;
 }
 
+@keyframes pageload {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+        scale: 1;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 section {
     background: rgba(126, 126, 126, 0.8);
     padding: 15px;
@@ -153,6 +180,14 @@ section {
     width: 400px;
     flex: 0 0 auto;
     padding-bottom: 20px;
+    opacity: 0;
+    margin-bottom: 2em;
+
+    animation-name: pageload;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.52, .91, .8, 1);
+    transition: .2s;
 }
 
 h1 {
