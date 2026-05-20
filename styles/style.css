@@ -205,31 +205,32 @@ strong {
     font-weight: normal;
 }
 
-.mushroom, .flower {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: repeat;
-    background-position: 0 0;
-    z-index: -1;
-}
+@media (prefers-reduced-motion: no-preference) {
+    .mushroom, .flower {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: repeat;
+        background-position: 0 0;
+        z-index: -1;
+    }
 
-.mushroom {
-    background-image: url('../assets/img/Mushroom.png');
-    background-size: 200px 200px;
-    /* Animation is handled by JS at a fixed 60 FPS to avoid high CPU/GPU on high-refresh displays */
-    animation: none !important;
-    opacity: 0.1;
-}
+    .mushroom {
+        background-image: url('../assets/img/Mushroom.png');
+        background-size: 200px 200px;
+        animation: none !important;
+        opacity: 0.1;
+    }
 
-.flower {
-    background-image: url('../assets/img/FireFlower.png');
-    background-size: 150px 150px;
-    opacity: 0.05;
-    /* Animation is handled by JS at a fixed 60 FPS to avoid high CPU/GPU on high-refresh displays */
-    animation: none !important;
+    .flower {
+        background-image: url('../assets/img/FireFlower.png');
+        background-size: 150px 150px;
+        opacity: 0.05;
+        /* Animation is handled by JS at a fixed 60 FPS to avoid high CPU/GPU on high-refresh displays */
+        animation: none !important;
+    }
 }
 
 /* Keyframes removed -- animation performed in JS at a locked 60 FPS to reduce resource usage on high-refresh-rate displays */
