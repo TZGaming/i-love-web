@@ -8,6 +8,10 @@ body {
     position: relative;
 }
 
+@view-transition {
+    navigation: auto;
+}
+
 .bg-alt {
     background-image: url(../assets/BG_wonder.png);
 }
@@ -138,6 +142,8 @@ article {
     padding-right: 50px;
     padding-bottom: 20px;
     justify-content: space-between;
+    height: 70vh;
+    overflow-y: scroll;
 }
 
 section {
