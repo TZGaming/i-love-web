@@ -1,0 +1,157 @@
+De prompt:
+Ik werk aan een dating platform. De doelgroep is 18-25 jaar.
+
+
+Maak een realistisch gebruikersprofiel met:
+﻿﻿Een naam en leeftijd
+﻿﻿Beroep of dagelijkse bezigheid
+﻿﻿Thuissituatie (woont alleen, met studiegenoten, thuis, etc.)
+﻿﻿Digitale vaardigheid op een schaal van 1-5, met een korte toelichting
+
+
+
+Houd het concreet en herkenbaar - geen cliches.
+
+Naam: Mila van Dijk
+Leeftijd: 22 jaar
+
+Beroep / dagelijkse bezigheid:
+Vierdejaars student Communicatie aan een hogeschool. Daarnaast werkt ze twee avonden per week bij een bioscoop en doet ze af en toe freelance socialmediawerk voor een lokale ondernemer.
+
+Thuissituatie:
+Woont in een gedeeld appartement met twee studiegenoten. Ze heeft een eigen kamer, maar deelt de keuken en woonkamer. In het weekend gaat ze regelmatig terug naar haar ouders.
+
+Digitale vaardigheid: 4/5
+Mila gebruikt dagelijks verschillende apps voor studie, werk en sociale contacten. Ze schakelt makkelijk tussen platforms, weet hoe privacy-instellingen werken en lost eenvoudige technische problemen zelf op. Voor ingewikkelde zaken zoals websitebeheer of programmeren zoekt ze meestal hulp of tutorials op.
+
+Korte omschrijving:
+Mila heeft een druk sociaal leven, maar ontmoet vooral mensen binnen haar studie- en vriendengroep. Ze staat open voor nieuwe contacten, maar vindt het lastig om buiten haar bestaande kring mensen te leren kennen. Bij een datingplatform verwacht ze een eenvoudige, snelle ervaring zonder te veel stappen of lange profielen. Ze haakt af als een app onoverzichtelijk voelt of veel tijd kost om in te vullen.
+
+
+Beschrijf nu de doelen en frustraties van Mila van Dijk:
+
+Doelen:
+- Wat wil ze/hij bereiken met dit product?
+- Wat maakt haar/hem enthousiast of nieuwsgierig?
+
+Frustraties:
+- Welke drempels of twijfels heeft ze/hij?
+- Wat ging mis bij vergelijkbare apps of websites eerder?
+Geef bij elk punt een concreet voorbeeld uit haar/zijn dagelijks leven.
+
+Doelen
+1. Nieuwe mensen ontmoeten buiten haar vaste kring
+Voorbeeld:
+Mila merkt dat ze bijna altijd dezelfde mensen tegenkomt: medestudenten, collega's van de bioscoop en vrienden van vrienden. Ze wil mensen leren kennen die ze normaal niet snel zou ontmoeten.
+
+2. Op een laagdrempelige manier kunnen ontdekken of er een klik is
+Voorbeeld:
+Na een drukke studiedag wil ze niet direct afspreken met iemand. Ze vindt het prettig om eerst een paar dagen te chatten om te zien of er een gesprek op gang komt.
+
+3. Efficiënt omgaan met haar tijd
+Voorbeeld:
+Tussen colleges, werk en sociale afspraken door heeft Mila weinig tijd. Ze wil binnen enkele minuten door profielen kunnen bladeren zonder uitgebreide vragenlijsten in te vullen.
+
+4. Mensen vinden met gedeelde interesses
+Voorbeeld:
+Mila bezoekt graag filmfestivals en concerten. Ze wordt enthousiast als een app helpt om mensen te vinden die dezelfde hobby's hebben, omdat dat direct gespreksstof oplevert.
+
+5. Een positieve en leuke ervaring hebben
+Voorbeeld:
+Ze vindt het leuk als een app verrassende vragen, speelse profielen of originele manieren biedt om een gesprek te starten. Dat maakt haar nieuwsgierig om terug te komen.
+
+Frustraties
+1. Twijfel of profielen echt zijn
+Voorbeeld:
+Bij eerdere apps kwam Mila meerdere profielen tegen met nauwelijks foto's of een lege bio. Daardoor twijfelde ze of ze met een echt persoon sprak en stopte ze vaak met reageren.
+
+2. Gesprekken die snel doodlopen
+Voorbeeld:
+Ze heeft regelmatig matches gehad waarbij het gesprek begon met alleen "Hey" en daarna niet verder kwam. Dat voelde als verspilde tijd.
+
+3. Te veel oppervlakkige keuzes
+Voorbeeld:
+Na twintig minuten swipen merkt Mila dat ze vooral op foto's let, terwijl ze eigenlijk meer wil weten over iemands persoonlijkheid of interesses.
+
+4. Angst voor ongemakkelijke ontmoetingen
+Voorbeeld:
+Ze vindt het spannend om af te spreken met iemand die online heel anders overkomt dan in werkelijkheid. Daarom stelt ze ontmoetingen soms langer uit dan nodig is.
+
+5. Overweldigd raken door meldingen en matches
+Voorbeeld:
+Tijdens tentamenweken opent Mila een datingapp soms dagen niet. Wanneer ze terugkomt, ziet ze tientallen meldingen en weet ze niet meer waar ze moet beginnen.
+
+6. Onzekerheid over privacy
+Voorbeeld:
+Mila wil niet dat studiegenoten of collega's direct kunnen zien dat ze een datingapp gebruikt. Ze let daarom sterk op welke persoonlijke informatie zichtbaar is.
+
+7. Apps die te veel moeite vragen bij de start
+Voorbeeld:
+Bij een eerdere app moest ze meer dan twintig vragen beantwoorden voordat ze überhaupt profielen kon bekijken. Ze sloot de app af en kwam niet meer terug.
+
+
+Schrijf nu een korte introductie van Mila van Dijk in de eerste persoon.
+
+Ze/hij beschrijft zichzelf in 4-6 zinnen: wie ze/hij is, wat ze/hij verwacht van dit soort producten, en wat haar/hem zou overtuigen om het echt te gaan gebruiken.
+
+Gebruik taalgebruik dat past bij haar/zijn profiel.
+
+Hoi, ik ben Mila, 22 jaar en ik studeer Communicatie. Naast mijn studie werk ik een paar avonden per week in een bioscoop, dus mijn dagen zijn meestal best vol. Ik vind het leuk om nieuwe mensen te leren kennen, maar buiten mijn studie en vriendenkring kom ik niet zo snel met anderen in contact. Bij een datingapp zoek ik iets dat simpel werkt en niet voelt als nog een extra taak op mijn to-do-lijst. Ik zou een app vaker gebruiken als de profielen echt en persoonlijk aanvoelen en gesprekken makkelijker op gang komen dan alleen met een standaard "Hey". Ook vind ik het belangrijk dat ik zelf controle heb over wat anderen van mij kunnen zien.
+
+
+Jij bent Mila van Dijk. Bezoek deze website: https://www.lexa.nl/. Je wilt een profiel aanmaken om mensen te ontmoeten.
+
+Als Mila van Dijk zou ik het aanmaken van een profiel op Lexa ongeveer zo ervaren:
+
+"Ik kom op de homepage en zie meteen dat Lexa zich richt op mensen die op zoek zijn naar iets serieuzers dan alleen een snelle match. Ik kan direct aangeven dat ik een vrouw ben die mannen zoekt, mijn leeftijdsvoorkeur instellen en mijn woonplaats invullen. De site benadrukt gecontroleerde profielen, privacy-instellingen en profielen die aansluiten bij mijn criteria, wat mij als nieuwe gebruiker wel vertrouwen geeft. Tegelijkertijd vraag ik me af hoeveel functies gratis zijn en hoeveel ik later moet betalen om echt contact te kunnen leggen." 
+
+Wat Mila zou invullen
+Gebruikersnaam:
+Mila22
+
+Leeftijd:
+22
+
+Woonplaats:
+Amsterdam
+
+Over mij:
+"Ik studeer Communicatie en werk daarnaast in een bioscoop. In mijn vrije tijd ga ik graag naar concerten, films en festivals. Ik houd van spontane plannen, maar kan ook genieten van een rustige avond met vrienden. Ik vind humor belangrijk en ik leer graag mensen kennen die nieuwsgierig zijn naar de wereld om hen heen."
+
+Interesses:
+
+Films en series
+
+Live muziek
+
+Festivals
+
+Reizen binnen Europa
+
+Koffietentjes ontdekken
+
+Fotografie
+
+Wat ik zoek:
+"Ik sta open voor een serieuze relatie, maar vind het belangrijk dat er eerst een leuke klik ontstaat. Een goed gesprek en gedeelde interesses zijn voor mij belangrijker dan een perfecte profielfoto."
+
+Eerste indruk van Lexa vanuit Mila
+Positief
+
+Duidelijke uitleg over veiligheid en moderatie van profielen. 
+
+Profielen lijken uitgebreider dan bij veel swipe-gebaseerde apps. 
+
+Mogelijkheid om privacy-instellingen aan te passen spreekt me aan. 
+
+Twijfels
+
+De website richt zich sterk op "serieuze relaties"; ik weet niet of veel leeftijdsgenoten van 18-25 daar actief zijn. 
+
+Ik wil eerst weten welke functies gratis zijn en wanneer ik moet betalen om berichten te sturen of profielen volledig te bekijken. Volgens Lexa zijn sommige functies onderdeel van een betaald membership. 
+
+Als student ben ik gevoelig voor te veel mails of meldingen, dus ik zou meteen mijn notificatie-instellingen controleren. 
+
+Wat mij zou overtuigen om te blijven gebruiken
+"Als ik binnen een paar dagen echte, actieve profielen zie van mensen rond mijn leeftijd met gedeelde interesses, en als gesprekken makkelijk op gang komen zonder direct te moeten betalen voor alles, dan zou ik de app blijven gebruiken. Vooral de combinatie van veiligheid, echte profielen en goede matches zou voor mij doorslaggevend zijn." 
+
